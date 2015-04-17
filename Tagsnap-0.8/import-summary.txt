@@ -1,0 +1,73 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .gitmodules
+* .idea/
+* .idea/.name
+* .idea/ant.xml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/dictionaries/
+* .idea/dictionaries/ashokgelal.xml
+* .idea/encodings.xml
+* .idea/inspectionProfiles/
+* .idea/inspectionProfiles/Project_Default.xml
+* .idea/inspectionProfiles/profiles_settings.xml
+* .idea/libraries/
+* .idea/libraries/Maven__com_actionbarsherlock_actionbarsherlock_4_2_0.xml
+* .idea/libraries/Maven__com_google_android_android_4_1_1_4.xml
+* .idea/libraries/Maven__com_google_android_gms_google_play_services_4.xml
+* .idea/libraries/Maven__com_google_android_support_v4_r7.xml
+* .idea/libraries/Maven__commons_codec_commons_codec_1_3.xml
+* .idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml
+* .idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml
+* .idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml
+* .idea/libraries/Maven__org_json_json_20080701.xml
+* .idea/libraries/Maven__org_khronos_opengl_api_gl1_1_android_2_1_r1.xml
+* .idea/libraries/Maven__xerces_xmlParserAPIs_2_6_2.xml
+* .idea/libraries/Maven__xpp3_xpp3_1_1_4c.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/uiDesigner.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* Tagsnap.iml
+* ant.properties
+* build.xml
+* pom.xml
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* libs/universal-image-loader-1.7.0.jar => app/libs/universal-image-loader-1.7.0.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
