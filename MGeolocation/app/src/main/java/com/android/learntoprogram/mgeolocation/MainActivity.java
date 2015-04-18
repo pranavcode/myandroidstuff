@@ -28,7 +28,6 @@ public class MainActivity extends ActionBarActivity {
         LocationListener ll = new myLocationListener();
 
         lm.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, ll);
-
     }
 
     private class myLocationListener implements LocationListener {
